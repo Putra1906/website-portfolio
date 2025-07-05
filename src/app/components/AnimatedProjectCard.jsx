@@ -1,4 +1,3 @@
-"use client";
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -19,12 +18,9 @@ const cardVariants = {
   },
 };
 
-const ProjectItem = ({ project, index }) => {
+const AnimatedProjectCard = ({ project, index }) => {
   const controls = useAnimation();
-  const [ref, inView] = useInView({
-    triggerOnce: false,
-    threshold: 0.2,
-  });
+  const [ref, inView] = useInView({ triggerOnce: false, threshold: 0.2 });
 
   useEffect(() => {
     if (inView) {
@@ -57,4 +53,4 @@ const ProjectItem = ({ project, index }) => {
   );
 };
 
-export default ProjectItem;
+export default AnimatedProjectCard;
