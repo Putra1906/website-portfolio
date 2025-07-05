@@ -74,7 +74,7 @@ const CampusActivitiesSection = () => {
               {/* Gambar responsif dengan bingkai */}
               <div className="w-full md:w-1/2">
                 <div className="border-4 border-cyan-500 rounded-xl overflow-hidden shadow-lg group transition-transform duration-700 hover:scale-105">
-                  <Image
+                  <img
                     src={activity.image}
                     alt={activity.title}
                     width={700}
