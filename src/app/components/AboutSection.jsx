@@ -212,7 +212,7 @@ const AboutSection = () => {
             initial="hidden"
             animate={controls}
           >
-            Hello Everyone, My full name is Putra Alpa Omega Bangun. I'm an
+            Hello Everyone, My full name is Putra Alpa Omega Bangun. I&apos;m an
             enthusiastic and detail-oriented Telecommunications Engineering
             student with a strong passion for IT system security, particularly
             in defensive cybersecurity (Blue Team). I embrace a lifelong

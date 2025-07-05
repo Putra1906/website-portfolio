@@ -78,7 +78,7 @@ const EmailSection = () => {
           Let&apos;s Connect 🚀
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md text-lg">
-          I'm actively exploring new opportunities where I can contribute, grow,
+          I&apos;m actively exploring new opportunities where I can contribute, grow,
           and make an impact. Feel free to reach out!
         </p>
         <div className="socials flex flex-row gap-4 mt-4">
