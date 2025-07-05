@@ -19,8 +19,8 @@ const AwardsSection = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      once: false, // biar animasi bisa jalan berulang
-      mirror: true, // animasi aktif juga saat scroll ke atas
+      once: false,
+      mirror: true,
     });
   }, []);
 
@@ -38,7 +38,7 @@ const AwardsSection = () => {
             data-aos="fade-up"
             data-aos-delay={index * 100}
           >
-            <Image
+            <img
               src={award.image}
               alt={award.title}
               layout="fill"

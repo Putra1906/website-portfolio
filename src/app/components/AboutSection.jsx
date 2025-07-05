@@ -188,7 +188,7 @@ const AboutSection = () => {
           initial="hidden"
           animate={inView ? "show" : "hidden"}
         >
-          <Image
+          <img
             src="/images/about/fix.png"
             width={450}
             height={450}
