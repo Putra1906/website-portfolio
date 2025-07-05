@@ -189,7 +189,7 @@ const AboutSection = () => {
           animate={inView ? "show" : "hidden"}
         >
           <Image
-            src="/images/about/poetra.png"
+            src="/images/about/fix.png"
             width={450}
             height={450}
             alt="About image"
