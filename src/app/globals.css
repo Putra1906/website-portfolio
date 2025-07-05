@@ -33,3 +33,20 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* Animasi berkilau (glow effect) */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #f9a8d4, 0 0 10px #f9a8d4, 0 0 20px #f9a8d4;
+  }
+  50% {
+    box-shadow: 0 0 15px #f472b6, 0 0 25px #f472b6, 0 0 35px #f472b6;
+  }
+  100% {
+    box-shadow: 0 0 5px #f9a8d4, 0 0 10px #f9a8d4, 0 0 20px #f9a8d4;
+  }
+}
+
+.animate-glow {
+  animation: glow 2s infinite ease-in-out;
+}
