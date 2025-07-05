@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 const activities = [
   {
     title: "Senior Staff of Academic Department (HMTT)",
-    image: "/public/images/projects/akd.jpg",
+    image: "/images/projects/akd.jpg",
     description:
       "Develop academic programs, coordinate tutoring, and organize Telco student learning support.",
   },
